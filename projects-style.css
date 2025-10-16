@@ -92,33 +92,40 @@
 /* ===== FULL PROJECT CARDS ===== */
 .projects-grid {
     display: grid;
-    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
 .project-card-full {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    gap: 2rem;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
     overflow: hidden;
     transition: all 0.3s ease;
-}
-
-.project-card-full:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(124, 58, 237, 0.3);
+    background: rgba(26, 19, 51, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(124, 58, 237, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .project-image {
     width: 100%;
-    height: 100%;
-    min-height: 250px;
+    height: 200px;
     background: rgba(13, 10, 31, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-image svg {
@@ -140,10 +147,10 @@
 }
 
 .project-content {
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 .project-title-full {
@@ -228,13 +235,52 @@
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    
+    .project-image {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+    
+    .project-image {
+        height: 220px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+    
     .project-card-full {
-        grid-template-columns: 1fr;
+        padding: 2.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .project-card-full {
+        flex-direction: column;
+        padding: 1.5rem;
     }
 
     .project-image {
-        min-height: 200px;
+        height: 180px;
     }
 
     .page-title {
@@ -301,6 +347,19 @@
     .btn-small {
         width: 100%;
         text-align: center;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project-card-full {
+        padding: 1.5rem;
+    }
+
+    .project-image {
+        height: 180px;
     }
 }
 

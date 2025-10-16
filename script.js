@@ -102,22 +102,24 @@ window.addEventListener('scroll', () => {
 // ===== CONTACT FORM HANDLING =====
 const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-    
-    // Here you would typically send the form data to a server
-    console.log('Form submitted:', { name, email, message });
-    
-    // Show success message
-    showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
-    
-    // Reset form
-    contactForm.reset();
-});
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // Here you would typically send the form data to a server
+        console.log('Form submitted:', { name, email, message });
+
+        // Show success message
+        showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
+
+        // Reset form
+        contactForm.reset();
+    });
+}
 
 // ===== NOTIFICATION SYSTEM =====
 function showNotification(message, type = 'success') {
@@ -207,40 +209,38 @@ function typeWriter(element, text, speed = 100) {
 // Apply typing effect on load
 window.addEventListener('load', () => {
     const tagline = document.querySelector('.hero-tagline');
-    const originalText = tagline.textContent;
-    typeWriter(tagline, originalText, 50);
+    if (tagline) {
+        const originalText = tagline.textContent;
+        typeWriter(tagline, originalText, 50);
+    }
 });
 
-// ===== PROJECT CARDS TILT EFFECT =====
-document.querySelectorAll('.project-card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        
-        const centerX = rect.width / 2;
-        const centerY = rect.height / 2;
-        
-        const rotateX = (y - centerY) / 20;
-        const rotateY = (centerX - x) / 20;
-        
-        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
+// ===== PROJECT CARDS HOVER EFFECT =====
+document.querySelectorAll('.project-card, .project-card-full').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.style.transform = 'translateY(-8px)';
+        card.style.boxShadow = '0 15px 35px rgba(0, 0, 0, 0.2)';
     });
-    
+
     card.addEventListener('mouseleave', () => {
-        card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+        card.style.transform = 'translateY(0)';
+        card.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.1)';
     });
 });
 
 // ===== SKILL CARDS ANIMATION ON HOVER =====
 document.querySelectorAll('.skill-card').forEach(card => {
-    card.addEventListener('mouseenter', () => {
-        const icon = card.querySelector('.skill-icon');
-        icon.style.animation = 'none';
-        setTimeout(() => {
-            icon.style.animation = '';
-        }, 10);
-    });
+    if (card) {
+        card.addEventListener('mouseenter', () => {
+            const icon = card.querySelector('.skill-icon');
+            if (icon) {
+                icon.style.animation = 'none';
+                setTimeout(() => {
+                    icon.style.animation = '';
+                }, 10);
+            }
+        });
+    }
 });
 
 // ===== CURSOR GLOW EFFECT =====
