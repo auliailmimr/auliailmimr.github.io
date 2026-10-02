@@ -25,7 +25,7 @@ export default function Footer() {
 						}}>
 						Want something like this?
 					</motion.h2>
-					<motion.h1
+					<motion.h2
 						className="text-5xl md:text-7xl font-medium mt-3  hover:underline whitespace-nowrap leading-none"
 						initial={{
 							opacity: 0,
@@ -43,7 +43,7 @@ export default function Footer() {
 							icon={faArrowAltCircleRight}
 							className="text-5xl ml-2 "
 						/>
-					</motion.h1>
+					</motion.h2>
 				</Link>
 			</div>
 			<footer className="flex justify-center items-center flex-col my-5 self-start]">

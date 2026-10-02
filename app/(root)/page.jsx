@@ -59,7 +59,7 @@ const MyPage = () => {
 											/>
 										</div>
 									</div>
-									<motion.h3
+									<motion.h1
 										className="uppercase text-xl mb-3 font-normal text tracking-[.5rem] text-gray-500"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
@@ -68,8 +68,8 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										Aulia Ilmi Maghfira Ridwan
-									</motion.h3>
-									<motion.h1
+									</motion.h1>
+									<motion.h2
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
@@ -78,7 +78,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										AI & Machine Learning Enthusiast
-									</motion.h1>
+									</motion.h2>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
 										initial={{ x: -100, opacity: 0 }}
@@ -165,7 +165,7 @@ const MyPage = () => {
 									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
-									<motion.h1
+									<motion.h2
 										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
@@ -174,7 +174,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										About Me
-									</motion.h1>
+									</motion.h2>
 									<Hr />
 									<motion.p
 										className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
@@ -231,7 +231,7 @@ const MyPage = () => {
 									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
-									<motion.h1
+									<motion.h2
 										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
@@ -240,7 +240,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										My Projects
-									</motion.h1>
+									</motion.h2>
 									<Hr />
 									<motion.p
 										className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
@@ -301,7 +301,7 @@ const MyPage = () => {
 									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">
-									<motion.h1
+									<motion.h2
 										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold mb-3"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
@@ -310,7 +310,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										Get In Touch
-									</motion.h1>
+									</motion.h2>
 									<Hr />
 									<motion.p
 										className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] md:mb-5"

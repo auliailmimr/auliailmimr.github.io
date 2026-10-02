@@ -41,10 +41,35 @@ export const metadata = {
 	},
 };
 
+// Structured data so search engines can match the site to the person's name
+const personJsonLd = {
+	"@context": "https://schema.org",
+	"@type": "Person",
+	name: "Aulia Ilmi Maghfira Ridwan",
+	alternateName: ["Aulia Ilmi Maghfira", "Auliaimr"],
+	url: "https://auliailmimr.github.io/",
+	image: "https://auliailmimr.github.io/og-image.png",
+	jobTitle: "AI & Machine Learning Enthusiast",
+	alumniOf: {
+		"@type": "CollegeOrUniversity",
+		name: "Universitas Islam Negeri Maulana Malik Ibrahim Malang",
+	},
+	address: { "@type": "PostalAddress", addressLocality: "Malang", addressCountry: "ID" },
+	knowsAbout: ["Data Analysis", "Machine Learning", "Computer Vision", "Python", "SQL"],
+	sameAs: [
+		"https://github.com/auliailmimr",
+		"https://www.linkedin.com/in/auliailmimr",
+	],
+};
+
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+				/>
 				<ClientTopProgressBar />
 				<Navbar />
 				{children}

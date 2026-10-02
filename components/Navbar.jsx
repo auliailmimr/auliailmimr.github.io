@@ -113,12 +113,12 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 				<div className="relative backdrop-blur-sm opacity-95 flex flex-col items-center space-x-8 min-h-[100vh] bg-gray-700 min-w-[100vw] ">
 					<div className="flex flex-col items-center space-y-8 my-auto mx-0 z-50">
 						{/* title */}
-						<motion.h1
+						<motion.p
 							variants={itemVariants}
 							animate={isNavOpen ? "open" : "closed"}
-							className="text-6xl font-bold text-white ">
+							className="font-jost text-6xl font-bold text-white ">
 							Menu
-						</motion.h1>
+						</motion.p>
 						<Link href="/#home">
 							<div
 								className="text-2xl font-bold text-white"
@@ -196,12 +196,12 @@ const Navbar = () => {
 						: "backdrop-filter backdrop-blur-md"
 				} inset-0  bg-opacity-50 flex flex-row justify-between items-center h-16 z-50 `}>
 				<div>
-					<h1
-						className={`text-2xl ml-2 md:ml-0 transition-colors ease duration-500 ${
+					<p
+						className={`font-jost text-2xl ml-2 md:ml-0 transition-colors ease duration-500 ${
 							isNavOpen ? "text-white" : ""
 						}`}>
 						Auliaimr
-					</h1>
+					</p>
 				</div>
 				<div className="flex flex-row items-center">
 					<button
