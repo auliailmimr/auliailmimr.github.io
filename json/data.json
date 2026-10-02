@@ -1,0 +1,95 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "Building Damage Level Detection with LBP & PCA",
+      "desc": [
+        "An image analysis project that classifies building damage into minor, moderate, or severe from a single photo. Each image is converted to grayscale, resized, and split into a 5x5 grid, then texture features are extracted with a manually implemented multi-scale Local Binary Pattern (LBP) at radius 1 to 5.",
+        "For every grid cell, the normalized LBP histogram is summarized into five statistics (mean, variance, entropy, energy, skewness). The features are standardized and reduced with Principal Component Analysis, where PC1 alone explains 91.82% of the variance.",
+        "PC1 values are normalized and mapped to damage categories, and the final label is decided by majority vote across the grid. The clustering is validated with a Silhouette Score of 0.72."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/auliailmimr/Determining-Level-of-Building-Damage",
+      "thumbnail": "/image/projects/building-damage-lbp-pca/thumbnail.jpg",
+      "images": [
+        "/image/projects/building-damage-lbp-pca/1-preprocessing.png",
+        "/image/projects/building-damage-lbp-pca/2-lbp-multiscale.png",
+        "/image/projects/building-damage-lbp-pca/3-pca-categories.png"
+      ],
+      "tech": ["Python", "OpenCV", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Google Colab"],
+      "slug": "building-damage-lbp-pca",
+      "category": [2]
+    },
+    {
+      "show": true,
+      "title": "Facial Emotion Detection",
+      "desc": [
+        "A facial emotion detection system that recognizes three expressions: angry (marah), sad (sedih), and happy (senang). Faces, eyes, and mouths are located with Haar Cascade classifiers, then 35 features are extracted from eye and mouth regions, texture, edges, histograms, and gradients.",
+        "The model is an ensemble of Random Forest and KNN trained on 317 images, reaching 70.31% accuracy, with the best results on the happy class (86% precision, 95% recall).",
+        "The model is served through a Flask web app with drag-and-drop upload. It shows the detected keypoints, a confidence score per emotion, and an explanation of why an emotion was predicted."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/auliailmimr/emotion-detection",
+      "thumbnail": "/image/projects/emotion-detection/thumbnail.jpg",
+      "images": ["/image/projects/emotion-detection/thumbnail.jpg"],
+      "tech": ["Python", "OpenCV", "Scikit-learn", "Flask", "NumPy"],
+      "slug": "emotion-detection",
+      "category": [2]
+    },
+    {
+      "show": true,
+      "title": "Global YouTube Statistics 2023 Analysis",
+      "desc": [
+        "Exploratory data analysis of the Global YouTube Statistics 2023 dataset (995 top channels, 28 columns), covering subscribers, video views, earnings, channel types, countries, and creation dates.",
+        "The analysis compares subscribers by category and country, earnings by channel type, growth over time, and correlations between variables. Subscribers and video views are strongly correlated, and earnings follow the same pattern.",
+        "After cleaning missing values, duplicates, and outliers, a simple linear regression using video views and highest monthly earnings explains about 39% of the variance in subscribers (R² 0.39)."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/auliailmimr/youtube_analyst",
+      "thumbnail": "/image/projects/youtube-statistics-2023/thumbnail.jpg",
+      "images": [
+        "/image/projects/youtube-statistics-2023/1-correlation.png",
+        "/image/projects/youtube-statistics-2023/2-subscribers-by-category.png",
+        "/image/projects/youtube-statistics-2023/3-subscribers-by-country.png",
+        "/image/projects/youtube-statistics-2023/4-actual-vs-predicted.png"
+      ],
+      "tech": ["Python", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter"],
+      "slug": "youtube-statistics-2023",
+      "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "Kimia Farma Business Performance Dashboard",
+      "desc": [
+        "Final project of the Kimia Farma Big Data Analytics virtual internship with Rakamin Academy. Transaction, product, inventory, and branch data were combined into an analysis table to evaluate Kimia Farma's business performance from 2020 to 2023.",
+        "The interactive dashboard shows total transactions (672,458), branches across 70 cities and 31 provinces, the share of each branch type, the top provinces by transactions and sales, and revenue per year, with filters by month, province, and product."
+      ],
+      "year": "2024",
+      "preview": "",
+      "code": "https://github.com/auliailmimr/Kimia_Farma_Bigdata",
+      "thumbnail": "/image/projects/kimia-farma-dashboard/thumbnail.jpg",
+      "images": ["/image/projects/kimia-farma-dashboard/dashboard.jpg"],
+      "tech": ["SQL", "Looker Studio", "Data Warehousing", "Data Mart"],
+      "slug": "kimia-farma-dashboard",
+      "category": [1]
+    },
+    {
+      "show": false,
+      "title": "Shipping Decision Support System (TOPSIS)",
+      "desc": [
+        "A web-based decision support system for choosing shipping options using the TOPSIS method. Users manage criteria, weights, rating scales, alternatives, and scores, and the system ranks the alternatives."
+      ],
+      "year": "2024",
+      "preview": "",
+      "code": "https://github.com/auliailmimr/DSS_Pengiriman",
+      "thumbnail": "",
+      "images": [],
+      "tech": ["PHP", "MySQL", "Bootstrap"],
+      "slug": "dss-pengiriman-topsis",
+      "category": [9]
+    }
+  ]
+}
