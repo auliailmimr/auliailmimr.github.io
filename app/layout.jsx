@@ -8,6 +8,9 @@ import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
 	metadataBase: new URL("https://auliailmimr.github.io"),
+	verification: {
+		google: "sDLXBwUIsXMYStQY6SCtVvi0Dqthn2uSbl9q_U04vjc",
+	},
 	title: "Aulia Ilmi Maghfira Ridwan | Portfolio",
 	description:
 		"Aulia Ilmi Maghfira Ridwan, an Informatics Engineering graduate and AI & Machine Learning enthusiast focused on data analysis, machine learning, and applying AI to real-world problems.",
