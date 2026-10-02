@@ -56,11 +56,11 @@ Projects are read from `json/data.json`. Put images in `public/image/projects/<s
   "images": ["/image/projects/<slug>/1.png"],
   "tech": ["Python", "Scikit-learn"],
   "slug": "project-slug",
-  "category": [1]
+  "category": ["1"]
 }
 ```
 
-Categories: `1` Data Analysis, `2` AI & Machine Learning, `9` Other. Set `"show": false` to list a project only in the archive.
+Categories: `"1"` Data Analysis, `"2"` AI & Machine Learning, `"9"` Other. Set `"show": false` to list a project only in the archive.
 
 The sitemap is regenerated automatically during deployment. At least one project must exist in `json/data.json`, because the static export needs a page for every project slug.
 

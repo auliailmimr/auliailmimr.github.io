@@ -7,8 +7,6 @@ const branch =
 	process.env.HEAD ||
 	"main";
 
-const CATEGORY_HELP = "1 = Data Analysis, 2 = AI & Machine Learning, 9 = Other";
-
 export default defineConfig({
 	branch,
 	clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
@@ -48,7 +46,7 @@ export default defineConfig({
 							defaultItem: {
 								show: true,
 								year: String(new Date().getFullYear()),
-								category: [2],
+								category: ["2"],
 							},
 						},
 						fields: [
@@ -78,11 +76,16 @@ export default defineConfig({
 							{ type: "string", name: "year", label: "Year" },
 							{ type: "string", name: "tech", label: "Technologies", list: true },
 							{
-								type: "number",
+								type: "string",
 								name: "category",
 								label: "Categories",
-								description: CATEGORY_HELP,
 								list: true,
+								options: [
+									{ value: "1", label: "Data Analysis" },
+									{ value: "2", label: "AI & Machine Learning" },
+									{ value: "9", label: "Other" },
+								],
+								ui: { component: "checkbox-group" },
 							},
 							{ type: "string", name: "code", label: "Source code URL (GitHub)" },
 							{ type: "string", name: "preview", label: "Live demo URL" },

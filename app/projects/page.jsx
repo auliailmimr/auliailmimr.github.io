@@ -25,7 +25,7 @@ export default function Page() {
 	const [activeCategory, setActiveCategory] = useState("1");
 	const projects = Projects.Projects.filter((item) => item.show === true);
 	const filteredProjects = projects.filter((project) =>
-		project.category.includes(parseInt(activeCategory))
+		project.category.map(Number).includes(Number(activeCategory))
 	);
 
 	useEffect(() => {
