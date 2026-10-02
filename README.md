@@ -32,6 +32,16 @@ The site is hosted on GitHub Pages at https://auliailmimr.github.io. Every push 
 
 ## Adding a Project
 
+### With the admin (TinaCMS)
+
+Open https://auliailmimr.github.io/admin/ and log in with Tina Cloud. Go to **Projects → data**, click **+** to add a project, upload images, and click **Save**. Tina commits the change to `main`, and GitHub Actions redeploys the site in about a minute.
+
+To use the admin locally, run `npm run dev` and open http://localhost:3000/admin/index.html. Local edits are saved straight to `json/data.json`.
+
+The admin needs two repository secrets (Settings → Secrets and variables → Actions) from your Tina Cloud project: `NEXT_PUBLIC_TINA_CLIENT_ID` and `TINA_TOKEN`. Without them the site still deploys, just without `/admin`.
+
+### By hand
+
 Projects are read from `json/data.json`. Put images in `public/image/projects/<slug>/` and add an entry:
 
 ```json
