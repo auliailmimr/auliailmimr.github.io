@@ -302,7 +302,7 @@ const MyPage = () => {
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">
 									<motion.h2
-										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold mb-3"
+										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-3"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
@@ -313,17 +313,16 @@ const MyPage = () => {
 									</motion.h2>
 									<Hr />
 									<motion.p
-										className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] md:mb-5"
+										className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] md:mb-5 md:max-w-[40vw]"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Feel free to contact me if you have any{" "}
-										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-											questions or just want to say hi.
-										</span>
+										{/* Width cap keeps the text clear of the photo on the right */}
+										Feel free to contact me if you have any questions or just want
+										to say hi.
 									</motion.p>
 									<motion.p
 										className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
