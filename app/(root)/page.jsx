@@ -166,7 +166,7 @@ const MyPage = () => {
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
 									<motion.h2
-										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
@@ -177,7 +177,7 @@ const MyPage = () => {
 									</motion.h2>
 									<Hr />
 									<motion.p
-										className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+										className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 md:max-w-[40vw]"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
@@ -232,7 +232,7 @@ const MyPage = () => {
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
 									<motion.h2
-										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
@@ -243,18 +243,15 @@ const MyPage = () => {
 									</motion.h2>
 									<Hr />
 									<motion.p
-										className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+										className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5 md:max-w-[40vw]"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
 											delay: 0.2,
 											type: "spring",
 										}}>
-										This is some of my projects that I have done{" "}
-										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-											{" "}
-											and currently working on.
-										</span>
+										This is some of my projects that I have done and currently
+										working on.
 									</motion.p>
 									<motion.div
 										initial={{ y: 40, opacity: 0 }}
@@ -302,7 +299,7 @@ const MyPage = () => {
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">
 									<motion.h2
-										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-3"
+										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold mb-3"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
