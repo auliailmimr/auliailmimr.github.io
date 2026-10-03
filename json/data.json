@@ -117,6 +117,46 @@
     },
     {
       "show": true,
+      "title": "Mac and Cheese Si Mbok Landing Page",
+      "slug": "mac-cheese-simbok",
+      "desc": [
+        "A landing page concept for Mac and Cheese Si Mbok, a homemade mac and cheese brand. The page covers the hero, menu categories, best-selling menu with prices, a limited-time promo, the brand story with a testimonial, an Instagram feed, outlet locations with opening hours, and WhatsApp ordering.",
+        "The project includes a style guide page that documents the visual system: color tokens checked for WCAG AA contrast, typography, spacing, radius and shadows, and every UI component used on the page, prepared so the design can be moved to Next.js and Tailwind.",
+        "Built with plain HTML, CSS, and JavaScript with shared design tokens, scroll animations, and a responsive layout for laptop, tablet, and phone. Names, addresses, phone numbers, and testimonials are fictional, and the photo sources and licenses are listed on a credits page."
+      ],
+      "year": "2026",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "https://github.com/auliailmimr/mnc_simbok",
+      "preview": "https://auliailmimr.github.io/mnc_simbok/",
+      "thumbnail": "/image/projects/mac-cheese-simbok/thumbnail.jpg",
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "auliailmimr.github.io/mnc_simbok/",
+          "image": "/image/projects/mac-cheese-simbok/screens/1-home.jpg"
+        },
+        {
+          "label": "Style Guide",
+          "url": "auliailmimr.github.io/mnc_simbok/panduan-gaya.html",
+          "image": "/image/projects/mac-cheese-simbok/screens/2-style-guide.jpg"
+        },
+        {
+          "label": "Photo Credits",
+          "url": "auliailmimr.github.io/mnc_simbok/kredit-foto.html",
+          "image": "/image/projects/mac-cheese-simbok/screens/3-photo-credits.jpg"
+        }
+      ]
+    },
+    {
+      "show": true,
       "title": "Building Damage Level Detection with LBP & PCA",
       "slug": "building-damage-lbp-pca",
       "desc": [
