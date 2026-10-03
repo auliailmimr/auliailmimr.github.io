@@ -18,6 +18,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 const category = {
 	1: "Data Analysis",
 	2: "AI & Machine Learning",
+	3: "Web Development",
 	9: "Other",
 };
 

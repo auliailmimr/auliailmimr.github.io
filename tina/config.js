@@ -83,6 +83,7 @@ export default defineConfig({
 								options: [
 									{ value: "1", label: "Data Analysis" },
 									{ value: "2", label: "AI & Machine Learning" },
+									{ value: "3", label: "Web Development" },
 									{ value: "9", label: "Other" },
 								],
 								ui: { component: "checkbox-group" },

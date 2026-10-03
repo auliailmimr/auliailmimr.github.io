@@ -2,6 +2,68 @@
   "Projects": [
     {
       "show": true,
+      "title": "PKBM Swastika School Website",
+      "slug": "pkbm-swastika-website",
+      "desc": [
+        "The official website of PKBM Swastika, a non-formal education center in Malang that runs equivalency programs for elementary (Paket A), junior high (Paket B), and senior high (Paket C) levels, plus skills training.",
+        "The site presents the education programs, a step-by-step registration flow with required documents, an FAQ, news and announcements, an activity gallery with category filters, and contact information.",
+        "Built with Next.js and Tailwind CSS with a responsive layout, and live on the school's own domain at pkbmswastika.sch.id."
+      ],
+      "year": "2024",
+      "tech": [
+        "Next.js",
+        "React",
+        "Tailwind CSS"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "",
+      "preview": "https://pkbmswastika.sch.id",
+      "thumbnail": "/image/projects/pkbm-swastika-website/thumbnail.jpg",
+      "images": [
+        "/image/projects/pkbm-swastika-website/1-home.jpg",
+        "/image/projects/pkbm-swastika-website/2-program.jpg",
+        "/image/projects/pkbm-swastika-website/3-pendaftaran.jpg",
+        "/image/projects/pkbm-swastika-website/4-berita.jpg"
+      ]
+    },
+    {
+      "show": true,
+      "title": "Online Student Admission System (PPDB) MTsN Kota Batu",
+      "slug": "ppdb-mtsn-kota-batu",
+      "desc": [
+        "A web-based new student admission system (PPDB/PMBM) for MTsN Kota Batu. Applicants register online through a six-step form covering terms, student data, parent or guardian data, previous school, admission track (Prestasi, Tahfidz, Ma'had, and others), and report card grades.",
+        "Registered applicants log in to a student panel to complete their biodata, upload required documents, check announcements, and print their registration card, grade summary, and acceptance letter as PDF.",
+        "The admin panel lets the committee verify applicants, open or close registration, set announcements and exam schedules, export applicant data and grades to Excel, and follow registration statistics per month and per year in interactive charts."
+      ],
+      "year": "2026",
+      "tech": [
+        "PHP",
+        "CodeIgniter 4",
+        "MySQL",
+        "Bootstrap",
+        "jQuery",
+        "Highcharts",
+        "Dompdf",
+        "PhpSpreadsheet"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "",
+      "preview": "",
+      "thumbnail": "/image/projects/ppdb-mtsn-kota-batu/thumbnail.jpg",
+      "images": [
+        "/image/projects/ppdb-mtsn-kota-batu/1-home.jpg",
+        "/image/projects/ppdb-mtsn-kota-batu/2-registration.jpg",
+        "/image/projects/ppdb-mtsn-kota-batu/3-admin-dashboard.jpg",
+        "/image/projects/ppdb-mtsn-kota-batu/4-verification.jpg",
+        "/image/projects/ppdb-mtsn-kota-batu/5-statistics.jpg"
+      ]
+    },
+    {
+      "show": true,
       "title": "Building Damage Level Detection with LBP & PCA",
       "slug": "building-damage-lbp-pca",
       "desc": [
