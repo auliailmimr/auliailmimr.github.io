@@ -92,6 +92,20 @@ export default defineConfig({
 							{ type: "string", name: "preview", label: "Live demo URL" },
 							{ type: "image", name: "thumbnail", label: "Thumbnail" },
 							{ type: "image", name: "images", label: "Gallery images", list: true },
+							{
+								type: "object",
+								name: "screens",
+								label: "Website preview pages",
+								description:
+									"Full-page screenshots shown in a scrollable browser frame, one tab per page.",
+								list: true,
+								ui: { itemProps: (item) => ({ label: item?.label }) },
+								fields: [
+									{ type: "string", name: "label", label: "Tab label", required: true },
+									{ type: "string", name: "url", label: "Address bar text" },
+									{ type: "image", name: "image", label: "Full-page screenshot", required: true },
+								],
+							},
 						],
 					},
 				],

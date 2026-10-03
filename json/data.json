@@ -21,11 +21,43 @@
       "code": "",
       "preview": "https://pkbmswastika.sch.id",
       "thumbnail": "/image/projects/pkbm-swastika-website/thumbnail.jpg",
-      "images": [
-        "/image/projects/pkbm-swastika-website/1-home.jpg",
-        "/image/projects/pkbm-swastika-website/2-program.jpg",
-        "/image/projects/pkbm-swastika-website/3-pendaftaran.jpg",
-        "/image/projects/pkbm-swastika-website/4-berita.jpg"
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "pkbmswastika.sch.id/",
+          "image": "/image/projects/pkbm-swastika-website/screens/1-home.jpg"
+        },
+        {
+          "label": "Program",
+          "url": "pkbmswastika.sch.id/program",
+          "image": "/image/projects/pkbm-swastika-website/screens/2-program.jpg"
+        },
+        {
+          "label": "Pendaftaran",
+          "url": "pkbmswastika.sch.id/pendaftaran",
+          "image": "/image/projects/pkbm-swastika-website/screens/3-pendaftaran.jpg"
+        },
+        {
+          "label": "Berita",
+          "url": "pkbmswastika.sch.id/berita",
+          "image": "/image/projects/pkbm-swastika-website/screens/4-berita.jpg"
+        },
+        {
+          "label": "Galeri",
+          "url": "pkbmswastika.sch.id/galeri",
+          "image": "/image/projects/pkbm-swastika-website/screens/5-galeri.jpg"
+        },
+        {
+          "label": "Tentang",
+          "url": "pkbmswastika.sch.id/tentang",
+          "image": "/image/projects/pkbm-swastika-website/screens/6-tentang.jpg"
+        },
+        {
+          "label": "Kontak",
+          "url": "pkbmswastika.sch.id/kontak",
+          "image": "/image/projects/pkbm-swastika-website/screens/7-kontak.jpg"
+        }
       ]
     },
     {
@@ -54,12 +86,33 @@
       "code": "",
       "preview": "",
       "thumbnail": "/image/projects/ppdb-mtsn-kota-batu/thumbnail.jpg",
-      "images": [
-        "/image/projects/ppdb-mtsn-kota-batu/1-home.jpg",
-        "/image/projects/ppdb-mtsn-kota-batu/2-registration.jpg",
-        "/image/projects/ppdb-mtsn-kota-batu/3-admin-dashboard.jpg",
-        "/image/projects/ppdb-mtsn-kota-batu/4-verification.jpg",
-        "/image/projects/ppdb-mtsn-kota-batu/5-statistics.jpg"
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "ppdb.mtsnkotabatu.sch.id/",
+          "image": "/image/projects/ppdb-mtsn-kota-batu/screens/1-home.jpg"
+        },
+        {
+          "label": "Registration Form",
+          "url": "ppdb.mtsnkotabatu.sch.id/registration",
+          "image": "/image/projects/ppdb-mtsn-kota-batu/screens/2-registration.jpg"
+        },
+        {
+          "label": "Admin Dashboard",
+          "url": "ppdb.mtsnkotabatu.sch.id/panel_admin",
+          "image": "/image/projects/ppdb-mtsn-kota-batu/screens/3-admin-dashboard.jpg"
+        },
+        {
+          "label": "Verification",
+          "url": "ppdb.mtsnkotabatu.sch.id/panel_admin/verification",
+          "image": "/image/projects/ppdb-mtsn-kota-batu/screens/4-verification.jpg"
+        },
+        {
+          "label": "Statistics",
+          "url": "ppdb.mtsnkotabatu.sch.id/panel_admin/statistics",
+          "image": "/image/projects/ppdb-mtsn-kota-batu/screens/5-statistics.jpg"
+        }
       ]
     },
     {

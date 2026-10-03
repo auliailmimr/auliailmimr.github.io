@@ -8,6 +8,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import BlurImage from "@/public/image/placeholder/blur.jpg";
 import FixedButon from "@/components/FixedButton";
+import WebsitePreview from "./WebsitePreview";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
@@ -143,6 +144,11 @@ function ProjectDetail({ project: data }) {
 					</div>
 				</div>
 			</div>
+			{data.screens?.length > 0 && (
+				<div className="w-full p-5 md:px-20 md:pt-20">
+					<WebsitePreview screens={data.screens} title={data.title} />
+				</div>
+			)}
 			{/* images */}
 			<div className="mx-auto grid grid-cols-1 p-5 md:p-20 w-full">
 				<div className="w-full h-auto text-center flex flex-col justify-center ">
