@@ -87,9 +87,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Saya seorang AI & ML enthusiast dengan fokus pada analisis data, 
-										pemodelan machine learning, dan penerapan artificial intelligence 
-										untuk solusi nyata.
+										I&apos;m an AI & ML enthusiast focused on data analysis, machine learning modeling, and applying artificial intelligence to real-world solutions.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"

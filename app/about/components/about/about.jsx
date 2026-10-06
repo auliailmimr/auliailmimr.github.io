@@ -110,9 +110,7 @@ export default function About() {
 						Aulia Ilmi Maghfira Ridwan
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Saya seorang AI & ML enthusiast dengan fokus pada analisis data, 
-						pemodelan machine learning, dan penerapan artificial intelligence 
-						untuk solusi nyata.
+						I&apos;m an AI & ML enthusiast focused on data analysis, machine learning modeling, and applying artificial intelligence to real-world solutions.
 					</p>
 					<div className="mt-6">
 						<h3 className="text-xl font-semibold mb-3">Skill</h3>

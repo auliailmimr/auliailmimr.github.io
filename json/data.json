@@ -34,27 +34,27 @@
           "image": "/image/projects/pkbm-swastika-website/screens/2-program.jpg"
         },
         {
-          "label": "Pendaftaran",
+          "label": "Registration",
           "url": "pkbmswastika.sch.id/pendaftaran",
           "image": "/image/projects/pkbm-swastika-website/screens/3-pendaftaran.jpg"
         },
         {
-          "label": "Berita",
+          "label": "News",
           "url": "pkbmswastika.sch.id/berita",
           "image": "/image/projects/pkbm-swastika-website/screens/4-berita.jpg"
         },
         {
-          "label": "Galeri",
+          "label": "Gallery",
           "url": "pkbmswastika.sch.id/galeri",
           "image": "/image/projects/pkbm-swastika-website/screens/5-galeri.jpg"
         },
         {
-          "label": "Tentang",
+          "label": "About",
           "url": "pkbmswastika.sch.id/tentang",
           "image": "/image/projects/pkbm-swastika-website/screens/6-tentang.jpg"
         },
         {
-          "label": "Kontak",
+          "label": "Contact",
           "url": "pkbmswastika.sch.id/kontak",
           "image": "/image/projects/pkbm-swastika-website/screens/7-kontak.jpg"
         }
