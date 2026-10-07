@@ -157,22 +157,19 @@
     },
     {
       "show": true,
-      "title": "Tinta Wedding Digital Invitation Templates",
+      "title": "TintaWedding Digital Invitation Website",
       "slug": "tinta-wedding",
       "desc": [
-        "Tinta Wedding is a collection of more than 15 digital wedding invitation templates, each with its own visual theme, such as Ivory Vellum, Terracotta Modern, Cinematic Editorial, Dark Botanical Luxe, Royal Javanese Heritage, and Islamic Arabesque Gold.",
-        "Each template is driven by a single CONFIG object that holds the couple, events, love story, gallery, and bank accounts, so a new invitation only needs a data change. Decorations are hand-coded as inline SVG, and animations use GSAP and ScrollTrigger while respecting reduced-motion settings.",
-        "Features include the guest name taken from the link, an animated opening cover, a countdown, event details with map links, a photo slideshow and lightbox gallery, a guestbook with RSVP, a digital envelope with copy-to-clipboard, background music, and a live streaming section. Some templates are built with Next.js and send RSVPs to Google Sheets through Google Apps Script. All names and photos in the previews are placeholders."
+        "A marketing and catalog website for TintaWedding, a digital wedding invitation service. The home page covers the hero with an animated phone mockup, key stats, features, sample invitations, four pricing packages, a four-step ordering guide, testimonials, an FAQ, and a call to action that opens a prefilled WhatsApp chat.",
+        "The catalog lists 15 invitation themes with a category filter, and every theme has its own demo page that shows the live invitation inside a phone frame, together with its features and minimum package. The themes are real invitation templates that I built separately and serve as static pages from the site.",
+        "Built with Next.js, React, Tailwind CSS, and Framer Motion, with a responsive layout and scroll animations. Theme data and pricing live in one data file, so new themes or packages can be added without touching the components. Names, testimonials, and the contact number are placeholders."
       ],
       "year": "2026",
       "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "GSAP",
         "Next.js",
+        "React",
         "Tailwind CSS",
-        "Google Apps Script"
+        "Framer Motion"
       ],
       "category": [
         "3"
@@ -183,19 +180,14 @@
       "images": [],
       "screens": [
         {
-          "label": "Ivory Vellum",
-          "url": "Tinta Wedding / Ivory Vellum",
-          "image": "/image/projects/tinta-wedding/screens/1-ivory-vellum.jpg"
+          "label": "Home",
+          "url": "TintaWedding / Home",
+          "image": "/image/projects/tinta-wedding/screens/1-home.jpg"
         },
         {
-          "label": "Terracotta Modern",
-          "url": "Tinta Wedding / Terracotta Modern",
-          "image": "/image/projects/tinta-wedding/screens/2-terracotta-modern.jpg"
-        },
-        {
-          "label": "Cinematic Editorial",
-          "url": "Tinta Wedding / Cinematic Editorial",
-          "image": "/image/projects/tinta-wedding/screens/3-cinematic-editorial.jpg"
+          "label": "Theme Demo",
+          "url": "TintaWedding / demo / terracotta-modern",
+          "image": "/image/projects/tinta-wedding/screens/2-theme-demo.jpg"
         }
       ]
     },
