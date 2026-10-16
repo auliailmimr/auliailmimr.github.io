@@ -129,7 +129,7 @@ export default function Page() {
 
 				{/* projects */}
 				{filteredProjects.length > 0 ? (
-					<div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10 cursor-pointer">
+					<div className="w-screen mx-auto container gap-6 px-10 grid grid-cols-1 md:grid-cols-2 mb-10 cursor-pointer">
 						{filteredProjects.map((project, index) => (
 							<ProjectCard
 								project={project}
