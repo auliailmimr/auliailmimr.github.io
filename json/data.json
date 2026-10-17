@@ -193,6 +193,86 @@
     },
     {
       "show": true,
+      "title": "Verdant Roast Coffee Shop Landing Page",
+      "slug": "verdant-roast",
+      "desc": [
+        "A landing page template for Verdant Roast, a fictional premium coffee shop, with a bold dark green look and plenty of motion. The page covers a hero product switcher, a menu with category tabs and a carousel, an \"Unmatched Quality\" section with layered typography, popular drinks, branch locations with map thumbnails, a contact form, and a newsletter footer.",
+        "Visitors can pick options for each drink, add it to a cart with an animated badge and toast, and change quantities in a slide-over cart. The menu carousel works with arrows, the keyboard, and swipe, and the contact form is validated with React Hook Form and Zod. Reduced-motion settings turn off parallax and marquees, and the tabs, dialogs, and carousel follow ARIA patterns.",
+        "Built with Next.js, TypeScript, Tailwind CSS, Framer Motion, and Zustand as a resellable template. Colors live in one theme file and all products, branches, and copy in one data file, so a buyer can rebrand it without touching the components. Product photos are CC0 stock images with the background removed, and the branch maps come from OpenStreetMap."
+      ],
+      "year": "2026",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Zustand",
+        "React Hook Form",
+        "Zod"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "",
+      "preview": "",
+      "thumbnail": "/image/projects/verdant-roast/thumbnail.jpg",
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "Verdant Roast / Home",
+          "image": "/image/projects/verdant-roast/screens/1-home.jpg"
+        }
+      ]
+    },
+    {
+      "show": true,
+      "title": "Little Atlas International Kindergarten Website",
+      "slug": "little-atlas-kindergarten",
+      "desc": [
+        "A multi-page website template for international kindergartens, shown with a demo school, Little Atlas International Kindergarten in Batu, East Java. It has pages for the school profile, four age-based programmes with their own detail pages, curriculum, admissions, fees, school life, news, and contact, in English, Bahasa Indonesia, and Chinese.",
+        "Parents can send an enquiry, book a school tour with a weekday date picker, or request the fee schedule. The forms are validated with Zod, handled by Next.js Server Actions, and emailed with Resend, with a honeypot field against spam. School staff can edit programmes, teachers, news, events, testimonials, the gallery, and the FAQ in a Sanity Studio embedded at /studio, with a local data file as a fallback.",
+        "Built with Next.js, TypeScript, Tailwind CSS, Framer Motion, next-intl, and Sanity, and designed so a new school can be rebranded in under an hour through the theme, font, data, and message files. It includes per-page SEO metadata, hreflang, a sitemap, JSON-LD, GA4 events, and WCAG AA contrast. The school and its content are dummy data, and the photos are Unsplash demo images."
+      ],
+      "year": "2026",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Sanity",
+        "Tailwind CSS",
+        "next-intl",
+        "Framer Motion",
+        "React Hook Form",
+        "Zod",
+        "Resend"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "",
+      "preview": "",
+      "thumbnail": "/image/projects/little-atlas-kindergarten/thumbnail.jpg",
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "Little Atlas / en",
+          "image": "/image/projects/little-atlas-kindergarten/screens/1-home.jpg"
+        },
+        {
+          "label": "Programmes",
+          "url": "Little Atlas / en / programmes",
+          "image": "/image/projects/little-atlas-kindergarten/screens/2-programmes.jpg"
+        },
+        {
+          "label": "Admissions",
+          "url": "Little Atlas / en / admissions",
+          "image": "/image/projects/little-atlas-kindergarten/screens/3-admissions.jpg"
+        }
+      ]
+    },
+    {
+      "show": true,
       "title": "Building Damage Level Detection with LBP & PCA",
       "slug": "building-damage-lbp-pca",
       "desc": [
