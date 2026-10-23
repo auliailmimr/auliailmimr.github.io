@@ -299,21 +299,6 @@
           "label": "Home",
           "url": "Barokah / Home",
           "image": "/image/projects/barokah/screens/1-home.jpg"
-        },
-        {
-          "label": "Categories",
-          "url": "Barokah / Categories",
-          "image": "/image/projects/barokah/screens/2-categories.jpg"
-        },
-        {
-          "label": "Products",
-          "url": "Barokah / Products",
-          "image": "/image/projects/barokah/screens/3-products.jpg"
-        },
-        {
-          "label": "About",
-          "url": "Barokah / About",
-          "image": "/image/projects/barokah/screens/4-about.jpg"
         }
       ]
     },
