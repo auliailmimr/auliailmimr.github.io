@@ -22,8 +22,11 @@ const category = {
 	9: "Other",
 };
 
+// display order of the category tabs
+const categoryOrder = ["3", "2", "1", "9"];
+
 export default function Page() {
-	const [activeCategory, setActiveCategory] = useState("1");
+	const [activeCategory, setActiveCategory] = useState(categoryOrder[0]);
 	const projects = Projects.Projects.filter((item) => item.show === true);
 	const filteredProjects = projects.filter((project) =>
 		project.category.map(Number).includes(Number(activeCategory))
@@ -113,7 +116,7 @@ export default function Page() {
 						type: "spring",
 					}}
 					className="flex flex-row justify-center items-start flex-wrap gap-3 md:gap-5 my-5 ">
-					{Object.keys(category).map((key, index) => (
+					{categoryOrder.map((key, index) => (
 						<button
 							key={index}
 							className={`px-2 md:px-4 py-2 rounded-lg cursor-pointer transition-all ease duration-300 focus:bg-gray-300 focus:text-black focus:ring focus:ring-slate-500 ${
