@@ -273,6 +273,52 @@
     },
     {
       "show": true,
+      "title": "Barokah Agricultural Store Landing Page",
+      "slug": "barokah-agricultural-store",
+      "desc": [
+        "A landing page for Barokah, a trusted agricultural supply store in Indonesia. The page opens with a scroll-driven cinematic hero, then moves through product categories, featured products, the store story, reasons to choose Barokah, and a closing call to action with a floating WhatsApp button for orders.",
+        "Featured products such as fertilizer, seedlings, organic pesticide, and tools show badges like Best Seller and Promo, ratings, and clear category labels. Animations are driven by GSAP and ScrollTrigger, and the layout adapts to phones and desktops.",
+        "Built as a single static HTML file with custom CSS and JavaScript, using GSAP for motion, Font Awesome icons, and the Plus Jakarta Sans and Fraunces typefaces. The store and its products are demo content."
+      ],
+      "year": "2026",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GSAP"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "",
+      "preview": "",
+      "thumbnail": "/image/projects/barokah/thumbnail.jpg",
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "Barokah / Home",
+          "image": "/image/projects/barokah/screens/1-home.jpg"
+        },
+        {
+          "label": "Categories",
+          "url": "Barokah / Categories",
+          "image": "/image/projects/barokah/screens/2-categories.jpg"
+        },
+        {
+          "label": "Products",
+          "url": "Barokah / Products",
+          "image": "/image/projects/barokah/screens/3-products.jpg"
+        },
+        {
+          "label": "About",
+          "url": "Barokah / About",
+          "image": "/image/projects/barokah/screens/4-about.jpg"
+        }
+      ]
+    },
+    {
+      "show": true,
       "title": "Building Damage Level Detection with LBP & PCA",
       "slug": "building-damage-lbp-pca",
       "desc": [
