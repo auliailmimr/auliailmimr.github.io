@@ -304,6 +304,36 @@
     },
     {
       "show": true,
+      "title": "Luxury Hotel Landing Page",
+      "slug": "luxury-hotel",
+      "desc": [
+        "A landing page for Luxury Hotel, a fictional upscale hotel, in a warm palette of brown, cream, and tan with gold accents. The page flows from a full-screen hero into a booking bar, three room cards with nightly prices, a spa section, a restaurant section, a customer testimonial carousel, and a footer with contact details and social links.",
+        "The booking bar checks that check-out comes after check-in and answers with a demo toast, with no backend. Cards and panels use a light glassmorphism effect over blurred photo backgrounds, the navbar turns solid on scroll and collapses into a hamburger menu on phones, and sections fade in as they enter the view. Labels, alt text, visible keyboard focus, and reduced-motion support are built in.",
+        "Built with Next.js (App Router), TypeScript, and Tailwind CSS v4 with next/font and next/image. Colors are theme tokens in one CSS file, and rooms, testimonials, and contact details live in separate data files, so the content can be swapped without touching the components. All content and Unsplash photos are demo material."
+      ],
+      "year": "2026",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "category": [
+        "3"
+      ],
+      "code": "",
+      "preview": "",
+      "thumbnail": "/image/projects/luxury-hotel/thumbnail.jpg",
+      "images": [],
+      "screens": [
+        {
+          "label": "Home",
+          "url": "Luxury Hotel / Home",
+          "image": "/image/projects/luxury-hotel/screens/1-home.jpg"
+        }
+      ]
+    },
+    {
+      "show": true,
       "title": "Building Damage Level Detection with LBP & PCA",
       "slug": "building-damage-lbp-pca",
       "desc": [
